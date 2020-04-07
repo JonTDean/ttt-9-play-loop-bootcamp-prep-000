@@ -39,6 +39,8 @@ end
 
 def play(board)
   i = 0
-  
-  for
+    loop{
+      i += 1      
+    }
+
 end
