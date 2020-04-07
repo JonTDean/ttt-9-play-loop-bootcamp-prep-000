@@ -40,9 +40,8 @@ end
 def play(board)
   i = 0
   
-  while i < 10
-    turn(board)
+  board.each do
     i += 1
+    turn(board)
   end
-
 end
